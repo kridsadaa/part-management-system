@@ -1,2 +1,2 @@
 # part-management-system
-ระบบแพลตฟอร์มสำหรับการจัดเก็บ ค้นหา และเข้าถึงเอกสารที่เกี่ยวข้องกับชิ้นส่วน (parts) ทางวิศวกรรม โดยมีการจัดการสิทธิ์การเข้าถึงเอกสารตามระดับผู้ใช้งาน (admin, staff, viewer) พร้อมระบบบันทึกประวัติการเข้าถึง
+A platform system for storing, searching, and accessing engineering part-related documents with document access permission management based on user levels (admin, staff, viewer) and an access history logging system.
