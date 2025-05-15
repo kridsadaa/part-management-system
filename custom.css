@@ -1,0 +1,306 @@
+/* CSS เพิ่มเติมสำหรับการคลิกที่กล่องบริษัท */
+.brand-item-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: transform 0.3s ease;
+}
+
+.brand-item-link:hover {
+    transform: translateY(-5px);
+}
+
+.brand-item-link:hover .brand-item {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* CSS สำหรับหน้า profile.php */
+.nav-tabs .nav-link.active {
+    color: #ff0000 !important;
+    border-bottom: 2px solid #ff0000;
+    font-weight: 500;
+}
+
+.nav-tabs .nav-link:hover {
+    color: #ff6b6b !important;
+    border-color: transparent transparent #ff6b6b transparent;
+}
+
+.tab-content {
+    border-color: #dee2e6 #dee2e6 #dee2e6;
+}
+
+.form-control:focus {
+    border-color: #ff6b6b;
+    box-shadow: 0 0 0 0.25rem rgba(255, 107, 107, 0.25);
+}
+
+/* ปรับแต่งปุ่มในหน้า profile */
+.btn-profile {
+    background-color: #ff0000;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.btn-profile:hover {
+    background-color: #e60000;
+    color: white;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* ปรับแต่ง card ในหน้า profile */
+.profile-card {
+    transition: all 0.3s ease;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.profile-card:hover {
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    transform: translateY(-5px);
+}
+
+/* CSS สำหรับตารางกิจกรรมล่าสุดในหน้า profile */
+.activity-row {
+    transition: all 0.2s ease;
+}
+
+.activity-row:hover {
+    background-color: #fff0f0;
+    transform: translateX(5px);
+}
+
+.table thead {
+    border-bottom: 2px solid #ff6b6b;
+}
+
+.table-hover tbody tr:hover {
+    background-color: #fff0f0;
+}
+
+/* ปรับแต่ง badge */
+.badge.rounded-pill {
+    padding: 0.35em 0.65em;
+    font-size: 0.75em;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.badge.rounded-pill:hover {
+    transform: scale(1.1);
+}
+
+/* CSS สำหรับหน้า user_management.php */
+.page-title {
+    color: #ff0000;
+    margin-bottom: 20px;
+    font-weight: 600;
+    border-left: 4px solid #ff0000;
+    padding-left: 15px;
+}
+
+.user-management-card {
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    border-top: 3px solid #ff0000;
+    transition: all 0.3s ease;
+}
+
+.user-management-card:hover {
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+    transform: translateY(-5px);
+}
+
+.user-table thead {
+    background-color: #fff0f0;
+}
+
+.user-table th {
+    color: #ff0000;
+    font-weight: 500;
+    border-bottom: 2px solid #ff6b6b;
+}
+
+.user-row {
+    transition: all 0.3s ease;
+}
+
+.user-row:hover {
+    background-color: #fff0f0;
+    transform: translateX(5px);
+}
+
+.btn-search {
+    background-color: #ff0000;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.btn-search:hover {
+    background-color: #e60000;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-add-user {
+    background-color: #ff0000;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.btn-add-user:hover {
+    background-color: #e60000;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-edit {
+    background-color: #ff0000;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.btn-edit:hover {
+    background-color: #e60000;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-delete {
+    background-color: #ff5252;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.btn-delete:hover {
+    background-color: #ff0000;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-save {
+    background-color: #ff0000;
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.btn-save:hover {
+    background-color: #e60000;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.search-input:focus {
+    border-color: #ff6b6b;
+    box-shadow: 0 0 0 0.25rem rgba(255, 107, 107, 0.25);
+}
+
+/* Modal styles for user management */
+#userModal .modal-header,
+#deleteModal .modal-header {
+    background-color: #ff0000;
+    color: white;
+}
+
+#userModal .modal-title,
+#deleteModal .modal-title {
+    color: white;
+}
+
+#userModal .form-label {
+    color: #333;
+    font-weight: 500;
+}
+
+#userModal .form-control:focus,
+#userModal .form-select:focus {
+    border-color: #ff6b6b;
+    box-shadow: 0 0 0 0.25rem rgba(255, 107, 107, 0.25);
+}
+
+/* Badge styles */
+.badge.bg-danger {
+    background-color: #ff0000 !important;
+    transition: all 0.3s ease;
+}
+
+.badge.bg-primary {
+    background-color: #0d6efd !important;
+    transition: all 0.3s ease;
+}
+
+.badge.bg-secondary {
+    background-color: #6c757d !important;
+    transition: all 0.3s ease;
+}
+
+.badge.bg-success {
+    background-color: #198754 !important;
+    transition: all 0.3s ease;
+}
+
+.badge:hover {
+    transform: scale(1.1);
+}
+
+/* CSS สำหรับแจ้งเตือนผลการค้นหา */
+.alert-info {
+    background-color: #fff0f0;
+    border-color: #ffcccb;
+    color: #ff0000;
+}
+
+.alert-info a {
+    color: #ff0000;
+    transition: all 0.3s ease;
+}
+
+.alert-info a:hover {
+    color: #e60000;
+    transform: translateY(-2px);
+}
+
+/* CSS สำหรับ Pagination */
+.pagination-container {
+    margin-top: 20px;
+}
+
+.pagination .page-item .page-link {
+    color: #ff0000;
+    background-color: #fff;
+    border-color: #dee2e6;
+    transition: all 0.3s ease;
+}
+
+.pagination .page-item .page-link:hover {
+    color: #fff;
+    background-color: #ff6b6b;
+    border-color: #ff6b6b;
+    transform: translateY(-2px);
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.pagination .page-item.active .page-link {
+    color: #fff;
+    background-color: #ff0000;
+    border-color: #ff0000;
+}
+
+.pagination .page-item.disabled .page-link {
+    color: #6c757d;
+    background-color: #fff;
+    border-color: #dee2e6;
+}
+
+.pagination .page-item:first-child .page-link,
+.pagination .page-item:last-child .page-link {
+    border-radius: 4px;
+}
+
+.pagination-info {
+    margin-top: 10px;
+    color: #6c757d;
+    font-size: 0.875rem;
+}
